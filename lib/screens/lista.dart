@@ -93,10 +93,16 @@ class _ListEventosState extends State<ListEventos> {
                     itemBuilder: (context, index) {
                       return Column(
                         children: [
-                          categoriaswidget(
-                            eventos[index].imagenUrl ?? '',
-                            eventos[index].nombre ?? 'Sin nombre',
-                            '\$\$', // Precio de ejemplo, puedes cambiarlo
+                          InkWell(
+                            onTap: () {
+                              Navigator.pushNamed(context, '/eventodetalle',
+                                  arguments: eventos[index]);
+                            },
+                            child: categoriaswidget(
+                              eventos[index].imagenUrl ?? '',
+                              eventos[index].nombre ?? 'Sin nombre',
+                              '\$\$', // Precio de ejemplo, puedes cambiarlo
+                            ),
                           ),
                           Divider(
                             height: 24,
@@ -112,9 +118,6 @@ class _ListEventosState extends State<ListEventos> {
                 }
               },
             ),
-            Divider(
-              height: 24,
-            ),
           ],
         ),
       ),
@@ -122,62 +125,57 @@ class _ListEventosState extends State<ListEventos> {
   }
 
   Widget categoriaswidget(String imagen, String nombre, String subtitulo) {
-    return InkWell(
-      onTap: () {
-        Navigator.pushNamed(context, '/lista', arguments: nombre);
-      },
-      child: Row(
-        children: [
-          ClipRRect(
-            borderRadius: BorderRadius.circular(50),
-            child: Image.network(
-              imagen,
-              height: 80,
-              width: 80,
+    return Row(
+      children: [
+        ClipRRect(
+          borderRadius: BorderRadius.circular(50),
+          child: Image.network(
+            imagen,
+            height: 80,
+            width: 80,
+          ),
+        ),
+        addHorizontalSpace(16),
+        Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text(
+              nombre,
+              style: medium(negro, 20),
             ),
-          ),
-          addHorizontalSpace(16),
-          Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Text(
-                nombre,
-                style: medium(negro, 20),
-              ),
-              addVerticalSpace(4),
-              Text(
-                subtitulo,
-                style: regular(grisOscuro, 18),
-              ),
-              addVerticalSpace(4),
-              Row(
-                children: [
-                  Icon(
-                    Icons.star,
-                    color: Colors.yellow,
-                  ),
-                  Icon(
-                    Icons.star,
-                    color: Colors.yellow,
-                  ),
-                  Icon(
-                    Icons.star,
-                    color: Colors.yellow,
-                  ),
-                  Icon(
-                    Icons.star,
-                    color: Colors.yellow,
-                  ),
-                  Icon(
-                    Icons.star,
-                    color: gris,
-                  ),
-                ],
-              ),
-            ],
-          ),
-        ],
-      ),
+            addVerticalSpace(4),
+            Text(
+              subtitulo,
+              style: regular(grisOscuro, 18),
+            ),
+            addVerticalSpace(4),
+            Row(
+              children: [
+                Icon(
+                  Icons.star,
+                  color: Colors.yellow,
+                ),
+                Icon(
+                  Icons.star,
+                  color: Colors.yellow,
+                ),
+                Icon(
+                  Icons.star,
+                  color: Colors.yellow,
+                ),
+                Icon(
+                  Icons.star,
+                  color: Colors.yellow,
+                ),
+                Icon(
+                  Icons.star,
+                  color: gris,
+                ),
+              ],
+            ),
+          ],
+        ),
+      ],
     );
   }
 }

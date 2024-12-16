@@ -2,1029 +2,1029 @@
   "message": "bien",
   "datos": [
     {
-        "id": 1,
-        "nombre": "Evento 1 - Parque",
-        "descripcion": "Descripci\u00f3n del evento 1, categor\u00eda Parque.",
-        "nombre_ciudad": "Ciudad D",
-        "ubicacion": "Direcci\u00f3n 1, Ciudad D",
-        "ubicacion_url": "https://example.com/ubicacion/1",
-        "creador": 93,
-        "estado": "activo",
-        "nombre_categoria": "Parque",
-        "imagen_url": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
-        "imagen_sectores": "https://example.com/imagenes/sectores_1.jpg",
-        "extra": {
-            "key": "value_1"
+      "id": 1,
+      "nombre": "Evento 1 - Parque",
+      "descripcion": "Descripci\u00f3n del evento 1, categor\u00eda Parque.",
+      "nombre_ciudad": "Ciudad D",
+      "ubicacion": "Direcci\u00f3n 1, Ciudad D",
+      "ubicacion_url": "https://example.com/ubicacion/1",
+      "creador": 93,
+      "estado": "activo",
+      "nombre_categoria": "Parque",
+      "imagen_url": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
+      "imagen_sectores": "https://example.com/imagenes/sectores_1.jpg",
+      "extra": {
+        "key": "value_1"
+      },
+      "dias": [
+        {
+          "id": 1,
+          "id_evento": 1,
+          "fecha": "2025-08-11"
         },
-        "dias": [
-            {
-                "id": 1,
-                "id_evento": 1,
-                "fecha": "2025-08-11"
-            },
-            {
-                "id": 2,
-                "id_evento": 1,
-                "fecha": "2025-05-27"
-            },
-            {
-                "id": 3,
-                "id_evento": 1,
-                "fecha": "2025-01-12"
-            },
-            {
-                "id": 4,
-                "id_evento": 1,
-                "fecha": "2025-01-05"
-            },
-            {
-                "id": 5,
-                "id_evento": 1,
-                "fecha": "2025-02-05"
-            }
-        ]
+        {
+          "id": 2,
+          "id_evento": 1,
+          "fecha": "2025-05-27"
+        },
+        {
+          "id": 3,
+          "id_evento": 1,
+          "fecha": "2025-01-12"
+        },
+        {
+          "id": 4,
+          "id_evento": 1,
+          "fecha": "2025-01-05"
+        },
+        {
+          "id": 5,
+          "id_evento": 1,
+          "fecha": "2025-02-05"
+        }
+      ]
     },
     {
-        "id": 2,
-        "nombre": "Evento 2 - Mall",
-        "descripcion": "Descripci\u00f3n del evento 2, categor\u00eda Mall.",
-        "nombre_ciudad": "Ciudad D",
-        "ubicacion": "Direcci\u00f3n 2, Ciudad D",
-        "ubicacion_url": "https://example.com/ubicacion/2",
-        "creador": 26,
-        "estado": "inactivo",
-        "nombre_categoria": "Mall",
-        "imagen_url": "https://boliviaemprende.com/wp-content/uploads/2020/01/cielo-Mall.jpg",
-        "imagen_sectores": "https://example.com/imagenes/sectores_2.jpg",
-        "extra": {
-            "key": "value_2"
+      "id": 2,
+      "nombre": "Evento 2 - Mall",
+      "descripcion": "Descripci\u00f3n del evento 2, categor\u00eda Mall.",
+      "nombre_ciudad": "Ciudad D",
+      "ubicacion": "Direcci\u00f3n 2, Ciudad D",
+      "ubicacion_url": "https://example.com/ubicacion/2",
+      "creador": 26,
+      "estado": "inactivo",
+      "nombre_categoria": "Mall",
+      "imagen_url": "https://blog.sothebysrealty.ae/hs-fs/hubfs/Largest%20Shopping%20Malls-jpg.jpeg?width=3200&height=2134&name=Largest%20Shopping%20Malls-jpg.jpeg",
+      "imagen_sectores": "https://example.com/imagenes/sectores_2.jpg",
+      "extra": {
+        "key": "value_2"
+      },
+      "dias": [
+        {
+          "id": 1,
+          "id_evento": 2,
+          "fecha": "2025-01-01"
         },
-        "dias": [
-            {
-                "id": 1,
-                "id_evento": 2,
-                "fecha": "2025-01-01"
-            },
-            {
-                "id": 2,
-                "id_evento": 2,
-                "fecha": "2025-01-13"
-            },
-            {
-                "id": 3,
-                "id_evento": 2,
-                "fecha": "2025-01-30"
-            },
-            {
-                "id": 4,
-                "id_evento": 2,
-                "fecha": "2025-03-04"
-            }
-        ]
+        {
+          "id": 2,
+          "id_evento": 2,
+          "fecha": "2025-01-13"
+        },
+        {
+          "id": 3,
+          "id_evento": 2,
+          "fecha": "2025-01-30"
+        },
+        {
+          "id": 4,
+          "id_evento": 2,
+          "fecha": "2025-03-04"
+        }
+      ]
     },
     {
-        "id": 3,
-        "nombre": "Evento 3 - Club",
-        "descripcion": "Descripci\u00f3n del evento 3, categor\u00eda Club.",
-        "nombre_ciudad": "Ciudad B",
-        "ubicacion": "Direcci\u00f3n 3, Ciudad B",
-        "ubicacion_url": "https://example.com/ubicacion/3",
-        "creador": 83,
-        "estado": "activo",
-        "nombre_categoria": "Club",
-        "imagen_url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Wikipedia_space_ibiza%2803%29.jpg",
-        "imagen_sectores": "https://example.com/imagenes/sectores_3.jpg",
-        "extra": {
-            "key": "value_3"
+      "id": 3,
+      "nombre": "Evento 3 - Club",
+      "descripcion": "Descripci\u00f3n del evento 3, categor\u00eda Club.",
+      "nombre_ciudad": "Ciudad B",
+      "ubicacion": "Direcci\u00f3n 3, Ciudad B",
+      "ubicacion_url": "https://example.com/ubicacion/3",
+      "creador": 83,
+      "estado": "activo",
+      "nombre_categoria": "Club",
+      "imagen_url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Wikipedia_space_ibiza%2803%29.jpg",
+      "imagen_sectores": "https://example.com/imagenes/sectores_3.jpg",
+      "extra": {
+        "key": "value_3"
+      },
+      "dias": [
+        {
+          "id": 1,
+          "id_evento": 3,
+          "fecha": "2024-12-29"
         },
-        "dias": [
-            {
-                "id": 1,
-                "id_evento": 3,
-                "fecha": "2024-12-29"
-            },
-            {
-                "id": 2,
-                "id_evento": 3,
-                "fecha": "2025-01-29"
-            },
-            {
-                "id": 3,
-                "id_evento": 3,
-                "fecha": "2024-12-18"
-            }
-        ]
+        {
+          "id": 2,
+          "id_evento": 3,
+          "fecha": "2025-01-29"
+        },
+        {
+          "id": 3,
+          "id_evento": 3,
+          "fecha": "2024-12-18"
+        }
+      ]
     },
     {
-        "id": 4,
-        "nombre": "Evento 4 - Mall",
-        "descripcion": "Descripci\u00f3n del evento 4, categor\u00eda Mall.",
-        "nombre_ciudad": "Ciudad B",
-        "ubicacion": "Direcci\u00f3n 4, Ciudad B",
-        "ubicacion_url": "https://example.com/ubicacion/4",
-        "creador": 93,
-        "estado": "inactivo",
-        "nombre_categoria": "Mall",
-        "imagen_url": "https://boliviaemprende.com/wp-content/uploads/2020/01/cielo-Mall.jpg",
-        "imagen_sectores": "https://example.com/imagenes/sectores_4.jpg",
-        "extra": {
-            "key": "value_4"
+      "id": 4,
+      "nombre": "Evento 4 - Mall",
+      "descripcion": "Descripci\u00f3n del evento 4, categor\u00eda Mall.",
+      "nombre_ciudad": "Ciudad B",
+      "ubicacion": "Direcci\u00f3n 4, Ciudad B",
+      "ubicacion_url": "https://example.com/ubicacion/4",
+      "creador": 93,
+      "estado": "inactivo",
+      "nombre_categoria": "Mall",
+      "imagen_url": "https://blog.sothebysrealty.ae/hs-fs/hubfs/Largest%20Shopping%20Malls-jpg.jpeg?width=3200&height=2134&name=Largest%20Shopping%20Malls-jpg.jpeg",
+      "imagen_sectores": "https://example.com/imagenes/sectores_4.jpg",
+      "extra": {
+        "key": "value_4"
+      },
+      "dias": [
+        {
+          "id": 1,
+          "id_evento": 4,
+          "fecha": "2024-12-24"
         },
-        "dias": [
-            {
-                "id": 1,
-                "id_evento": 4,
-                "fecha": "2024-12-24"
-            },
-            {
-                "id": 2,
-                "id_evento": 4,
-                "fecha": "2025-06-24"
-            },
-            {
-                "id": 3,
-                "id_evento": 4,
-                "fecha": "2025-02-10"
-            },
-            {
-                "id": 4,
-                "id_evento": 4,
-                "fecha": "2025-04-29"
-            },
-            {
-                "id": 5,
-                "id_evento": 4,
-                "fecha": "2024-12-30"
-            }
-        ]
+        {
+          "id": 2,
+          "id_evento": 4,
+          "fecha": "2025-06-24"
+        },
+        {
+          "id": 3,
+          "id_evento": 4,
+          "fecha": "2025-02-10"
+        },
+        {
+          "id": 4,
+          "id_evento": 4,
+          "fecha": "2025-04-29"
+        },
+        {
+          "id": 5,
+          "id_evento": 4,
+          "fecha": "2024-12-30"
+        }
+      ]
     },
     {
-        "id": 5,
-        "nombre": "Evento 5 - Club",
-        "descripcion": "Descripci\u00f3n del evento 5, categor\u00eda Club.",
-        "nombre_ciudad": "Ciudad B",
-        "ubicacion": "Direcci\u00f3n 5, Ciudad B",
-        "ubicacion_url": "https://example.com/ubicacion/5",
-        "creador": 66,
-        "estado": "inactivo",
-        "nombre_categoria": "Club",
-        "imagen_url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Wikipedia_space_ibiza%2803%29.jpg",
-        "imagen_sectores": "https://example.com/imagenes/sectores_5.jpg",
-        "extra": {
-            "key": "value_5"
+      "id": 5,
+      "nombre": "Evento 5 - Club",
+      "descripcion": "Descripci\u00f3n del evento 5, categor\u00eda Club.",
+      "nombre_ciudad": "Ciudad B",
+      "ubicacion": "Direcci\u00f3n 5, Ciudad B",
+      "ubicacion_url": "https://example.com/ubicacion/5",
+      "creador": 66,
+      "estado": "inactivo",
+      "nombre_categoria": "Club",
+      "imagen_url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Wikipedia_space_ibiza%2803%29.jpg",
+      "imagen_sectores": "https://example.com/imagenes/sectores_5.jpg",
+      "extra": {
+        "key": "value_5"
+      },
+      "dias": [
+        {
+          "id": 1,
+          "id_evento": 5,
+          "fecha": "2024-12-23"
         },
-        "dias": [
-            {
-                "id": 1,
-                "id_evento": 5,
-                "fecha": "2024-12-23"
-            },
-            {
-                "id": 2,
-                "id_evento": 5,
-                "fecha": "2025-05-30"
-            },
-            {
-                "id": 3,
-                "id_evento": 5,
-                "fecha": "2025-08-12"
-            },
-            {
-                "id": 4,
-                "id_evento": 5,
-                "fecha": "2025-02-03"
-            },
-            {
-                "id": 5,
-                "id_evento": 5,
-                "fecha": "2025-05-16"
-            }
-        ]
+        {
+          "id": 2,
+          "id_evento": 5,
+          "fecha": "2025-05-30"
+        },
+        {
+          "id": 3,
+          "id_evento": 5,
+          "fecha": "2025-08-12"
+        },
+        {
+          "id": 4,
+          "id_evento": 5,
+          "fecha": "2025-02-03"
+        },
+        {
+          "id": 5,
+          "id_evento": 5,
+          "fecha": "2025-05-16"
+        }
+      ]
     },
     {
-        "id": 6,
-        "nombre": "Evento 6 - Club",
-        "descripcion": "Descripci\u00f3n del evento 6, categor\u00eda Club.",
-        "nombre_ciudad": "Ciudad C",
-        "ubicacion": "Direcci\u00f3n 6, Ciudad C",
-        "ubicacion_url": "https://example.com/ubicacion/6",
-        "creador": 91,
-        "estado": "inactivo",
-        "nombre_categoria": "Club",
-        "imagen_url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Wikipedia_space_ibiza%2803%29.jpg",
-        "imagen_sectores": "https://example.com/imagenes/sectores_6.jpg",
-        "extra": {
-            "key": "value_6"
-        },
-        "dias": [
-            {
-                "id": 1,
-                "id_evento": 6,
-                "fecha": "2025-05-07"
-            }
-        ]
+      "id": 6,
+      "nombre": "Evento 6 - Club",
+      "descripcion": "Descripci\u00f3n del evento 6, categor\u00eda Club.",
+      "nombre_ciudad": "Ciudad C",
+      "ubicacion": "Direcci\u00f3n 6, Ciudad C",
+      "ubicacion_url": "https://example.com/ubicacion/6",
+      "creador": 91,
+      "estado": "inactivo",
+      "nombre_categoria": "Club",
+      "imagen_url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Wikipedia_space_ibiza%2803%29.jpg",
+      "imagen_sectores": "https://example.com/imagenes/sectores_6.jpg",
+      "extra": {
+        "key": "value_6"
+      },
+      "dias": [
+        {
+          "id": 1,
+          "id_evento": 6,
+          "fecha": "2025-05-07"
+        }
+      ]
     },
     {
-        "id": 7,
-        "nombre": "Evento 7 - Club",
-        "descripcion": "Descripci\u00f3n del evento 7, categor\u00eda Club.",
-        "nombre_ciudad": "Ciudad B",
-        "ubicacion": "Direcci\u00f3n 7, Ciudad B",
-        "ubicacion_url": "https://example.com/ubicacion/7",
-        "creador": 57,
-        "estado": "activo",
-        "nombre_categoria": "Club",
-        "imagen_url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Wikipedia_space_ibiza%2803%29.jpg",
-        "imagen_sectores": "https://example.com/imagenes/sectores_7.jpg",
-        "extra": {
-            "key": "value_7"
+      "id": 7,
+      "nombre": "Evento 7 - Club",
+      "descripcion": "Descripci\u00f3n del evento 7, categor\u00eda Club.",
+      "nombre_ciudad": "Ciudad B",
+      "ubicacion": "Direcci\u00f3n 7, Ciudad B",
+      "ubicacion_url": "https://example.com/ubicacion/7",
+      "creador": 57,
+      "estado": "activo",
+      "nombre_categoria": "Club",
+      "imagen_url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Wikipedia_space_ibiza%2803%29.jpg",
+      "imagen_sectores": "https://example.com/imagenes/sectores_7.jpg",
+      "extra": {
+        "key": "value_7"
+      },
+      "dias": [
+        {
+          "id": 1,
+          "id_evento": 7,
+          "fecha": "2025-02-19"
         },
-        "dias": [
-            {
-                "id": 1,
-                "id_evento": 7,
-                "fecha": "2025-02-19"
-            },
-            {
-                "id": 2,
-                "id_evento": 7,
-                "fecha": "2025-03-18"
-            },
-            {
-                "id": 3,
-                "id_evento": 7,
-                "fecha": "2025-02-23"
-            }
-        ]
+        {
+          "id": 2,
+          "id_evento": 7,
+          "fecha": "2025-03-18"
+        },
+        {
+          "id": 3,
+          "id_evento": 7,
+          "fecha": "2025-02-23"
+        }
+      ]
     },
     {
-        "id": 8,
-        "nombre": "Evento 8 - Club",
-        "descripcion": "Descripci\u00f3n del evento 8, categor\u00eda Club.",
-        "nombre_ciudad": "Ciudad A",
-        "ubicacion": "Direcci\u00f3n 8, Ciudad A",
-        "ubicacion_url": "https://example.com/ubicacion/8",
-        "creador": 57,
-        "estado": "inactivo",
-        "nombre_categoria": "Club",
-        "imagen_url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Wikipedia_space_ibiza%2803%29.jpg",
-        "imagen_sectores": "https://example.com/imagenes/sectores_8.jpg",
-        "extra": {
-            "key": "value_8"
+      "id": 8,
+      "nombre": "Evento 8 - Club",
+      "descripcion": "Descripci\u00f3n del evento 8, categor\u00eda Club.",
+      "nombre_ciudad": "Ciudad A",
+      "ubicacion": "Direcci\u00f3n 8, Ciudad A",
+      "ubicacion_url": "https://example.com/ubicacion/8",
+      "creador": 57,
+      "estado": "inactivo",
+      "nombre_categoria": "Club",
+      "imagen_url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Wikipedia_space_ibiza%2803%29.jpg",
+      "imagen_sectores": "https://example.com/imagenes/sectores_8.jpg",
+      "extra": {
+        "key": "value_8"
+      },
+      "dias": [
+        {
+          "id": 1,
+          "id_evento": 8,
+          "fecha": "2024-12-19"
         },
-        "dias": [
-            {
-                "id": 1,
-                "id_evento": 8,
-                "fecha": "2024-12-19"
-            },
-            {
-                "id": 2,
-                "id_evento": 8,
-                "fecha": "2025-11-24"
-            }
-        ]
+        {
+          "id": 2,
+          "id_evento": 8,
+          "fecha": "2025-11-24"
+        }
+      ]
     },
     {
-        "id": 9,
-        "nombre": "Evento 9 - Mall",
-        "descripcion": "Descripci\u00f3n del evento 9, categor\u00eda Mall.",
-        "nombre_ciudad": "Ciudad D",
-        "ubicacion": "Direcci\u00f3n 9, Ciudad D",
-        "ubicacion_url": "https://example.com/ubicacion/9",
-        "creador": 77,
-        "estado": "activo",
-        "nombre_categoria": "Mall",
-        "imagen_url": "https://boliviaemprende.com/wp-content/uploads/2020/01/cielo-Mall.jpg",
-        "imagen_sectores": "https://example.com/imagenes/sectores_9.jpg",
-        "extra": {
-            "key": "value_9"
-        },
-        "dias": [
-            {
-                "id": 1,
-                "id_evento": 9,
-                "fecha": "2024-12-23"
-            }
-        ]
+      "id": 9,
+      "nombre": "Evento 9 - Mall",
+      "descripcion": "Descripci\u00f3n del evento 9, categor\u00eda Mall.",
+      "nombre_ciudad": "Ciudad D",
+      "ubicacion": "Direcci\u00f3n 9, Ciudad D",
+      "ubicacion_url": "https://example.com/ubicacion/9",
+      "creador": 77,
+      "estado": "activo",
+      "nombre_categoria": "Mall",
+      "imagen_url": "https://blog.sothebysrealty.ae/hs-fs/hubfs/Largest%20Shopping%20Malls-jpg.jpeg?width=3200&height=2134&name=Largest%20Shopping%20Malls-jpg.jpeg",
+      "imagen_sectores": "https://example.com/imagenes/sectores_9.jpg",
+      "extra": {
+        "key": "value_9"
+      },
+      "dias": [
+        {
+          "id": 1,
+          "id_evento": 9,
+          "fecha": "2024-12-23"
+        }
+      ]
     },
     {
-        "id": 10,
-        "nombre": "Evento 10 - Arcade",
-        "descripcion": "Descripci\u00f3n del evento 10, categor\u00eda Arcade.",
-        "nombre_ciudad": "Ciudad D",
-        "ubicacion": "Direcci\u00f3n 10, Ciudad D",
-        "ubicacion_url": "https://example.com/ubicacion/10",
-        "creador": 62,
-        "estado": "activo",
-        "nombre_categoria": "Arcade",
-        "imagen_url": "https://cdn.shopify.com/s/files/1/2677/1846/files/Golden_Age_of_Arcade_Games_600x600.jpg?v=1715891970",
-        "imagen_sectores": "https://example.com/imagenes/sectores_10.jpg",
-        "extra": {
-            "key": "value_10"
-        },
-        "dias": [
-            {
-                "id": 1,
-                "id_evento": 10,
-                "fecha": "2025-01-31"
-            }
-        ]
+      "id": 10,
+      "nombre": "Evento 10 - Arcade",
+      "descripcion": "Descripci\u00f3n del evento 10, categor\u00eda Arcade.",
+      "nombre_ciudad": "Ciudad D",
+      "ubicacion": "Direcci\u00f3n 10, Ciudad D",
+      "ubicacion_url": "https://example.com/ubicacion/10",
+      "creador": 62,
+      "estado": "activo",
+      "nombre_categoria": "Arcade",
+      "imagen_url": "https://cdn.shopify.com/s/files/1/2677/1846/files/Golden_Age_of_Arcade_Games_600x600.jpg?v=1715891970",
+      "imagen_sectores": "https://example.com/imagenes/sectores_10.jpg",
+      "extra": {
+        "key": "value_10"
+      },
+      "dias": [
+        {
+          "id": 1,
+          "id_evento": 10,
+          "fecha": "2025-01-31"
+        }
+      ]
     },
     {
-        "id": 11,
-        "nombre": "Evento 11 - Parque",
-        "descripcion": "Descripci\u00f3n del evento 11, categor\u00eda Parque.",
-        "nombre_ciudad": "Ciudad D",
-        "ubicacion": "Direcci\u00f3n 11, Ciudad D",
-        "ubicacion_url": "https://example.com/ubicacion/11",
-        "creador": 83,
-        "estado": "activo",
-        "nombre_categoria": "Parque",
-        "imagen_url": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
-        "imagen_sectores": "https://example.com/imagenes/sectores_11.jpg",
-        "extra": {
-            "key": "value_11"
+      "id": 11,
+      "nombre": "Evento 11 - Parque",
+      "descripcion": "Descripci\u00f3n del evento 11, categor\u00eda Parque.",
+      "nombre_ciudad": "Ciudad D",
+      "ubicacion": "Direcci\u00f3n 11, Ciudad D",
+      "ubicacion_url": "https://example.com/ubicacion/11",
+      "creador": 83,
+      "estado": "activo",
+      "nombre_categoria": "Parque",
+      "imagen_url": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
+      "imagen_sectores": "https://example.com/imagenes/sectores_11.jpg",
+      "extra": {
+        "key": "value_11"
+      },
+      "dias": [
+        {
+          "id": 1,
+          "id_evento": 11,
+          "fecha": "2024-12-29"
         },
-        "dias": [
-            {
-                "id": 1,
-                "id_evento": 11,
-                "fecha": "2024-12-29"
-            },
-            {
-                "id": 2,
-                "id_evento": 11,
-                "fecha": "2024-12-30"
-            }
-        ]
+        {
+          "id": 2,
+          "id_evento": 11,
+          "fecha": "2024-12-30"
+        }
+      ]
     },
     {
-        "id": 12,
-        "nombre": "Evento 12 - Cinema",
-        "descripcion": "Descripci\u00f3n del evento 12, categor\u00eda Cinema.",
-        "nombre_ciudad": "Ciudad D",
-        "ubicacion": "Direcci\u00f3n 12, Ciudad D",
-        "ubicacion_url": "https://example.com/ubicacion/12",
-        "creador": 52,
-        "estado": "inactivo",
-        "nombre_categoria": "Cinema",
-        "imagen_url": "https://www.eslecollege.com/wp-content/uploads/2023/10/Cinema-world.jpg",
-        "imagen_sectores": "https://example.com/imagenes/sectores_12.jpg",
-        "extra": {
-            "key": "value_12"
+      "id": 12,
+      "nombre": "Evento 12 - Cinema",
+      "descripcion": "Descripci\u00f3n del evento 12, categor\u00eda Cinema.",
+      "nombre_ciudad": "Ciudad D",
+      "ubicacion": "Direcci\u00f3n 12, Ciudad D",
+      "ubicacion_url": "https://example.com/ubicacion/12",
+      "creador": 52,
+      "estado": "inactivo",
+      "nombre_categoria": "Cinema",
+      "imagen_url": "https://www.eslecollege.com/wp-content/uploads/2023/10/Cinema-world.jpg",
+      "imagen_sectores": "https://example.com/imagenes/sectores_12.jpg",
+      "extra": {
+        "key": "value_12"
+      },
+      "dias": [
+        {
+          "id": 1,
+          "id_evento": 12,
+          "fecha": "2024-12-15"
         },
-        "dias": [
-            {
-                "id": 1,
-                "id_evento": 12,
-                "fecha": "2024-12-15"
-            },
-            {
-                "id": 2,
-                "id_evento": 12,
-                "fecha": "2025-02-23"
-            },
-            {
-                "id": 3,
-                "id_evento": 12,
-                "fecha": "2025-01-12"
-            },
-            {
-                "id": 4,
-                "id_evento": 12,
-                "fecha": "2025-08-22"
-            }
-        ]
+        {
+          "id": 2,
+          "id_evento": 12,
+          "fecha": "2025-02-23"
+        },
+        {
+          "id": 3,
+          "id_evento": 12,
+          "fecha": "2025-01-12"
+        },
+        {
+          "id": 4,
+          "id_evento": 12,
+          "fecha": "2025-08-22"
+        }
+      ]
     },
     {
-        "id": 13,
-        "nombre": "Evento 13 - Club",
-        "descripcion": "Descripci\u00f3n del evento 13, categor\u00eda Club.",
-        "nombre_ciudad": "Ciudad D",
-        "ubicacion": "Direcci\u00f3n 13, Ciudad D",
-        "ubicacion_url": "https://example.com/ubicacion/13",
-        "creador": 12,
-        "estado": "activo",
-        "nombre_categoria": "Club",
-        "imagen_url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Wikipedia_space_ibiza%2803%29.jpg",
-        "imagen_sectores": "https://example.com/imagenes/sectores_13.jpg",
-        "extra": {
-            "key": "value_13"
+      "id": 13,
+      "nombre": "Evento 13 - Club",
+      "descripcion": "Descripci\u00f3n del evento 13, categor\u00eda Club.",
+      "nombre_ciudad": "Ciudad D",
+      "ubicacion": "Direcci\u00f3n 13, Ciudad D",
+      "ubicacion_url": "https://example.com/ubicacion/13",
+      "creador": 12,
+      "estado": "activo",
+      "nombre_categoria": "Club",
+      "imagen_url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Wikipedia_space_ibiza%2803%29.jpg",
+      "imagen_sectores": "https://example.com/imagenes/sectores_13.jpg",
+      "extra": {
+        "key": "value_13"
+      },
+      "dias": [
+        {
+          "id": 1,
+          "id_evento": 13,
+          "fecha": "2024-12-21"
         },
-        "dias": [
-            {
-                "id": 1,
-                "id_evento": 13,
-                "fecha": "2024-12-21"
-            },
-            {
-                "id": 2,
-                "id_evento": 13,
-                "fecha": "2024-12-23"
-            },
-            {
-                "id": 3,
-                "id_evento": 13,
-                "fecha": "2025-01-08"
-            }
-        ]
+        {
+          "id": 2,
+          "id_evento": 13,
+          "fecha": "2024-12-23"
+        },
+        {
+          "id": 3,
+          "id_evento": 13,
+          "fecha": "2025-01-08"
+        }
+      ]
     },
     {
-        "id": 14,
-        "nombre": "Evento 14 - Mall",
-        "descripcion": "Descripci\u00f3n del evento 14, categor\u00eda Mall.",
-        "nombre_ciudad": "Ciudad D",
-        "ubicacion": "Direcci\u00f3n 14, Ciudad D",
-        "ubicacion_url": "https://example.com/ubicacion/14",
-        "creador": 2,
-        "estado": "activo",
-        "nombre_categoria": "Mall",
-        "imagen_url": "https://boliviaemprende.com/wp-content/uploads/2020/01/cielo-Mall.jpg",
-        "imagen_sectores": "https://example.com/imagenes/sectores_14.jpg",
-        "extra": {
-            "key": "value_14"
-        },
-        "dias": [
-            {
-                "id": 1,
-                "id_evento": 14,
-                "fecha": "2025-09-17"
-            }
-        ]
+      "id": 14,
+      "nombre": "Evento 14 - Mall",
+      "descripcion": "Descripci\u00f3n del evento 14, categor\u00eda Mall.",
+      "nombre_ciudad": "Ciudad D",
+      "ubicacion": "Direcci\u00f3n 14, Ciudad D",
+      "ubicacion_url": "https://example.com/ubicacion/14",
+      "creador": 2,
+      "estado": "activo",
+      "nombre_categoria": "Mall",
+      "imagen_url": "https://blog.sothebysrealty.ae/hs-fs/hubfs/Largest%20Shopping%20Malls-jpg.jpeg?width=3200&height=2134&name=Largest%20Shopping%20Malls-jpg.jpeg",
+      "imagen_sectores": "https://example.com/imagenes/sectores_14.jpg",
+      "extra": {
+        "key": "value_14"
+      },
+      "dias": [
+        {
+          "id": 1,
+          "id_evento": 14,
+          "fecha": "2025-09-17"
+        }
+      ]
     },
     {
-        "id": 15,
-        "nombre": "Evento 15 - Cinema",
-        "descripcion": "Descripci\u00f3n del evento 15, categor\u00eda Cinema.",
-        "nombre_ciudad": "Ciudad B",
-        "ubicacion": "Direcci\u00f3n 15, Ciudad B",
-        "ubicacion_url": "https://example.com/ubicacion/15",
-        "creador": 85,
-        "estado": "inactivo",
-        "nombre_categoria": "Cinema",
-        "imagen_url": "https://www.eslecollege.com/wp-content/uploads/2023/10/Cinema-world.jpg",
-        "imagen_sectores": "https://example.com/imagenes/sectores_15.jpg",
-        "extra": {
-            "key": "value_15"
+      "id": 15,
+      "nombre": "Evento 15 - Cinema",
+      "descripcion": "Descripci\u00f3n del evento 15, categor\u00eda Cinema.",
+      "nombre_ciudad": "Ciudad B",
+      "ubicacion": "Direcci\u00f3n 15, Ciudad B",
+      "ubicacion_url": "https://example.com/ubicacion/15",
+      "creador": 85,
+      "estado": "inactivo",
+      "nombre_categoria": "Cinema",
+      "imagen_url": "https://www.eslecollege.com/wp-content/uploads/2023/10/Cinema-world.jpg",
+      "imagen_sectores": "https://example.com/imagenes/sectores_15.jpg",
+      "extra": {
+        "key": "value_15"
+      },
+      "dias": [
+        {
+          "id": 1,
+          "id_evento": 15,
+          "fecha": "2024-12-17"
         },
-        "dias": [
-            {
-                "id": 1,
-                "id_evento": 15,
-                "fecha": "2024-12-17"
-            },
-            {
-                "id": 2,
-                "id_evento": 15,
-                "fecha": "2024-12-17"
-            },
-            {
-                "id": 3,
-                "id_evento": 15,
-                "fecha": "2024-12-14"
-            }
-        ]
+        {
+          "id": 2,
+          "id_evento": 15,
+          "fecha": "2024-12-17"
+        },
+        {
+          "id": 3,
+          "id_evento": 15,
+          "fecha": "2024-12-14"
+        }
+      ]
     },
     {
-        "id": 16,
-        "nombre": "Evento 16 - Mall",
-        "descripcion": "Descripci\u00f3n del evento 16, categor\u00eda Mall.",
-        "nombre_ciudad": "Ciudad E",
-        "ubicacion": "Direcci\u00f3n 16, Ciudad E",
-        "ubicacion_url": "https://example.com/ubicacion/16",
-        "creador": 71,
-        "estado": "activo",
-        "nombre_categoria": "Mall",
-        "imagen_url": "https://boliviaemprende.com/wp-content/uploads/2020/01/cielo-Mall.jpg",
-        "imagen_sectores": "https://example.com/imagenes/sectores_16.jpg",
-        "extra": {
-            "key": "value_16"
+      "id": 16,
+      "nombre": "Evento 16 - Mall",
+      "descripcion": "Descripci\u00f3n del evento 16, categor\u00eda Mall.",
+      "nombre_ciudad": "Ciudad E",
+      "ubicacion": "Direcci\u00f3n 16, Ciudad E",
+      "ubicacion_url": "https://example.com/ubicacion/16",
+      "creador": 71,
+      "estado": "activo",
+      "nombre_categoria": "Mall",
+      "imagen_url": "https://blog.sothebysrealty.ae/hs-fs/hubfs/Largest%20Shopping%20Malls-jpg.jpeg?width=3200&height=2134&name=Largest%20Shopping%20Malls-jpg.jpeg",
+      "imagen_sectores": "https://example.com/imagenes/sectores_16.jpg",
+      "extra": {
+        "key": "value_16"
+      },
+      "dias": [
+        {
+          "id": 1,
+          "id_evento": 16,
+          "fecha": "2025-02-02"
         },
-        "dias": [
-            {
-                "id": 1,
-                "id_evento": 16,
-                "fecha": "2025-02-02"
-            },
-            {
-                "id": 2,
-                "id_evento": 16,
-                "fecha": "2025-02-16"
-            }
-        ]
+        {
+          "id": 2,
+          "id_evento": 16,
+          "fecha": "2025-02-16"
+        }
+      ]
     },
     {
-        "id": 17,
-        "nombre": "Evento 17 - Club",
-        "descripcion": "Descripci\u00f3n del evento 17, categor\u00eda Club.",
-        "nombre_ciudad": "Ciudad A",
-        "ubicacion": "Direcci\u00f3n 17, Ciudad A",
-        "ubicacion_url": "https://example.com/ubicacion/17",
-        "creador": 24,
-        "estado": "inactivo",
-        "nombre_categoria": "Club",
-        "imagen_url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Wikipedia_space_ibiza%2803%29.jpg",
-        "imagen_sectores": "https://example.com/imagenes/sectores_17.jpg",
-        "extra": {
-            "key": "value_17"
-        },
-        "dias": [
-            {
-                "id": 1,
-                "id_evento": 17,
-                "fecha": "2024-12-22"
-            }
-        ]
+      "id": 17,
+      "nombre": "Evento 17 - Club",
+      "descripcion": "Descripci\u00f3n del evento 17, categor\u00eda Club.",
+      "nombre_ciudad": "Ciudad A",
+      "ubicacion": "Direcci\u00f3n 17, Ciudad A",
+      "ubicacion_url": "https://example.com/ubicacion/17",
+      "creador": 24,
+      "estado": "inactivo",
+      "nombre_categoria": "Club",
+      "imagen_url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Wikipedia_space_ibiza%2803%29.jpg",
+      "imagen_sectores": "https://example.com/imagenes/sectores_17.jpg",
+      "extra": {
+        "key": "value_17"
+      },
+      "dias": [
+        {
+          "id": 1,
+          "id_evento": 17,
+          "fecha": "2024-12-22"
+        }
+      ]
     },
     {
-        "id": 18,
-        "nombre": "Evento 18 - Rstaurantes",
-        "descripcion": "Descripci\u00f3n del evento 18, categor\u00eda Rstaurantes.",
-        "nombre_ciudad": "Ciudad D",
-        "ubicacion": "Direcci\u00f3n 18, Ciudad D",
-        "ubicacion_url": "https://example.com/ubicacion/18",
-        "creador": 14,
-        "estado": "activo",
-        "nombre_categoria": "Rstaurantes",
-        "imagen_url": "https://nobili-design.com/storage/gallery/6240/lg/Restaurant_Interior_Design_Nobili_Design_7.jpg",
-        "imagen_sectores": "https://example.com/imagenes/sectores_18.jpg",
-        "extra": {
-            "key": "value_18"
+      "id": 18,
+      "nombre": "Evento 18 - Rstaurantes",
+      "descripcion": "Descripci\u00f3n del evento 18, categor\u00eda Rstaurantes.",
+      "nombre_ciudad": "Ciudad D",
+      "ubicacion": "Direcci\u00f3n 18, Ciudad D",
+      "ubicacion_url": "https://example.com/ubicacion/18",
+      "creador": 14,
+      "estado": "activo",
+      "nombre_categoria": "Rstaurantes",
+      "imagen_url": "https://nobili-design.com/storage/gallery/6240/lg/Restaurant_Interior_Design_Nobili_Design_7.jpg",
+      "imagen_sectores": "https://example.com/imagenes/sectores_18.jpg",
+      "extra": {
+        "key": "value_18"
+      },
+      "dias": [
+        {
+          "id": 1,
+          "id_evento": 18,
+          "fecha": "2025-03-22"
         },
-        "dias": [
-            {
-                "id": 1,
-                "id_evento": 18,
-                "fecha": "2025-03-22"
-            },
-            {
-                "id": 2,
-                "id_evento": 18,
-                "fecha": "2025-09-21"
-            },
-            {
-                "id": 3,
-                "id_evento": 18,
-                "fecha": "2025-01-01"
-            },
-            {
-                "id": 4,
-                "id_evento": 18,
-                "fecha": "2024-12-30"
-            },
-            {
-                "id": 5,
-                "id_evento": 18,
-                "fecha": "2025-06-14"
-            }
-        ]
+        {
+          "id": 2,
+          "id_evento": 18,
+          "fecha": "2025-09-21"
+        },
+        {
+          "id": 3,
+          "id_evento": 18,
+          "fecha": "2025-01-01"
+        },
+        {
+          "id": 4,
+          "id_evento": 18,
+          "fecha": "2024-12-30"
+        },
+        {
+          "id": 5,
+          "id_evento": 18,
+          "fecha": "2025-06-14"
+        }
+      ]
     },
     {
-        "id": 19,
-        "nombre": "Evento 19 - Mall",
-        "descripcion": "Descripci\u00f3n del evento 19, categor\u00eda Mall.",
-        "nombre_ciudad": "Ciudad A",
-        "ubicacion": "Direcci\u00f3n 19, Ciudad A",
-        "ubicacion_url": "https://example.com/ubicacion/19",
-        "creador": 12,
-        "estado": "activo",
-        "nombre_categoria": "Mall",
-        "imagen_url": "https://boliviaemprende.com/wp-content/uploads/2020/01/cielo-Mall.jpg",
-        "imagen_sectores": "https://example.com/imagenes/sectores_19.jpg",
-        "extra": {
-            "key": "value_19"
+      "id": 19,
+      "nombre": "Evento 19 - Mall",
+      "descripcion": "Descripci\u00f3n del evento 19, categor\u00eda Mall.",
+      "nombre_ciudad": "Ciudad A",
+      "ubicacion": "Direcci\u00f3n 19, Ciudad A",
+      "ubicacion_url": "https://example.com/ubicacion/19",
+      "creador": 12,
+      "estado": "activo",
+      "nombre_categoria": "Mall",
+      "imagen_url": "https://blog.sothebysrealty.ae/hs-fs/hubfs/Largest%20Shopping%20Malls-jpg.jpeg?width=3200&height=2134&name=Largest%20Shopping%20Malls-jpg.jpeg",
+      "imagen_sectores": "https://example.com/imagenes/sectores_19.jpg",
+      "extra": {
+        "key": "value_19"
+      },
+      "dias": [
+        {
+          "id": 1,
+          "id_evento": 19,
+          "fecha": "2025-02-14"
         },
-        "dias": [
-            {
-                "id": 1,
-                "id_evento": 19,
-                "fecha": "2025-02-14"
-            },
-            {
-                "id": 2,
-                "id_evento": 19,
-                "fecha": "2025-02-11"
-            },
-            {
-                "id": 3,
-                "id_evento": 19,
-                "fecha": "2025-05-03"
-            },
-            {
-                "id": 4,
-                "id_evento": 19,
-                "fecha": "2025-02-16"
-            },
-            {
-                "id": 5,
-                "id_evento": 19,
-                "fecha": "2024-12-22"
-            }
-        ]
+        {
+          "id": 2,
+          "id_evento": 19,
+          "fecha": "2025-02-11"
+        },
+        {
+          "id": 3,
+          "id_evento": 19,
+          "fecha": "2025-05-03"
+        },
+        {
+          "id": 4,
+          "id_evento": 19,
+          "fecha": "2025-02-16"
+        },
+        {
+          "id": 5,
+          "id_evento": 19,
+          "fecha": "2024-12-22"
+        }
+      ]
     },
     {
-        "id": 20,
-        "nombre": "Evento 20 - Mall",
-        "descripcion": "Descripci\u00f3n del evento 20, categor\u00eda Mall.",
-        "nombre_ciudad": "Ciudad A",
-        "ubicacion": "Direcci\u00f3n 20, Ciudad A",
-        "ubicacion_url": "https://example.com/ubicacion/20",
-        "creador": 84,
-        "estado": "inactivo",
-        "nombre_categoria": "Mall",
-        "imagen_url": "https://boliviaemprende.com/wp-content/uploads/2020/01/cielo-Mall.jpg",
-        "imagen_sectores": "https://example.com/imagenes/sectores_20.jpg",
-        "extra": {
-            "key": "value_20"
+      "id": 20,
+      "nombre": "Evento 20 - Mall",
+      "descripcion": "Descripci\u00f3n del evento 20, categor\u00eda Mall.",
+      "nombre_ciudad": "Ciudad A",
+      "ubicacion": "Direcci\u00f3n 20, Ciudad A",
+      "ubicacion_url": "https://example.com/ubicacion/20",
+      "creador": 84,
+      "estado": "inactivo",
+      "nombre_categoria": "Mall",
+      "imagen_url": "https://blog.sothebysrealty.ae/hs-fs/hubfs/Largest%20Shopping%20Malls-jpg.jpeg?width=3200&height=2134&name=Largest%20Shopping%20Malls-jpg.jpeg",
+      "imagen_sectores": "https://example.com/imagenes/sectores_20.jpg",
+      "extra": {
+        "key": "value_20"
+      },
+      "dias": [
+        {
+          "id": 1,
+          "id_evento": 20,
+          "fecha": "2024-12-21"
         },
-        "dias": [
-            {
-                "id": 1,
-                "id_evento": 20,
-                "fecha": "2024-12-21"
-            },
-            {
-                "id": 2,
-                "id_evento": 20,
-                "fecha": "2024-12-14"
-            },
-            {
-                "id": 3,
-                "id_evento": 20,
-                "fecha": "2025-02-01"
-            }
-        ]
+        {
+          "id": 2,
+          "id_evento": 20,
+          "fecha": "2024-12-14"
+        },
+        {
+          "id": 3,
+          "id_evento": 20,
+          "fecha": "2025-02-01"
+        }
+      ]
     },
     {
-        "id": 21,
-        "nombre": "Evento 21 - Parque",
-        "descripcion": "Descripci\u00f3n del evento 21, categor\u00eda Parque.",
-        "nombre_ciudad": "Ciudad C",
-        "ubicacion": "Direcci\u00f3n 21, Ciudad C",
-        "ubicacion_url": "https://example.com/ubicacion/21",
-        "creador": 58,
-        "estado": "activo",
-        "nombre_categoria": "Parque",
-        "imagen_url": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
-        "imagen_sectores": "https://example.com/imagenes/sectores_21.jpg",
-        "extra": {
-            "key": "value_21"
+      "id": 21,
+      "nombre": "Evento 21 - Parque",
+      "descripcion": "Descripci\u00f3n del evento 21, categor\u00eda Parque.",
+      "nombre_ciudad": "Ciudad C",
+      "ubicacion": "Direcci\u00f3n 21, Ciudad C",
+      "ubicacion_url": "https://example.com/ubicacion/21",
+      "creador": 58,
+      "estado": "activo",
+      "nombre_categoria": "Parque",
+      "imagen_url": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
+      "imagen_sectores": "https://example.com/imagenes/sectores_21.jpg",
+      "extra": {
+        "key": "value_21"
+      },
+      "dias": [
+        {
+          "id": 1,
+          "id_evento": 21,
+          "fecha": "2024-12-29"
         },
-        "dias": [
-            {
-                "id": 1,
-                "id_evento": 21,
-                "fecha": "2024-12-29"
-            },
-            {
-                "id": 2,
-                "id_evento": 21,
-                "fecha": "2025-02-23"
-            },
-            {
-                "id": 3,
-                "id_evento": 21,
-                "fecha": "2025-03-29"
-            },
-            {
-                "id": 4,
-                "id_evento": 21,
-                "fecha": "2025-02-14"
-            },
-            {
-                "id": 5,
-                "id_evento": 21,
-                "fecha": "2025-02-09"
-            }
-        ]
+        {
+          "id": 2,
+          "id_evento": 21,
+          "fecha": "2025-02-23"
+        },
+        {
+          "id": 3,
+          "id_evento": 21,
+          "fecha": "2025-03-29"
+        },
+        {
+          "id": 4,
+          "id_evento": 21,
+          "fecha": "2025-02-14"
+        },
+        {
+          "id": 5,
+          "id_evento": 21,
+          "fecha": "2025-02-09"
+        }
+      ]
     },
     {
-        "id": 22,
-        "nombre": "Evento 22 - Mall",
-        "descripcion": "Descripci\u00f3n del evento 22, categor\u00eda Mall.",
-        "nombre_ciudad": "Ciudad D",
-        "ubicacion": "Direcci\u00f3n 22, Ciudad D",
-        "ubicacion_url": "https://example.com/ubicacion/22",
-        "creador": 48,
-        "estado": "activo",
-        "nombre_categoria": "Mall",
-        "imagen_url": "https://boliviaemprende.com/wp-content/uploads/2020/01/cielo-Mall.jpg",
-        "imagen_sectores": "https://example.com/imagenes/sectores_22.jpg",
-        "extra": {
-            "key": "value_22"
+      "id": 22,
+      "nombre": "Evento 22 - Mall",
+      "descripcion": "Descripci\u00f3n del evento 22, categor\u00eda Mall.",
+      "nombre_ciudad": "Ciudad D",
+      "ubicacion": "Direcci\u00f3n 22, Ciudad D",
+      "ubicacion_url": "https://example.com/ubicacion/22",
+      "creador": 48,
+      "estado": "activo",
+      "nombre_categoria": "Mall",
+      "imagen_url": "https://blog.sothebysrealty.ae/hs-fs/hubfs/Largest%20Shopping%20Malls-jpg.jpeg?width=3200&height=2134&name=Largest%20Shopping%20Malls-jpg.jpeg",
+      "imagen_sectores": "https://example.com/imagenes/sectores_22.jpg",
+      "extra": {
+        "key": "value_22"
+      },
+      "dias": [
+        {
+          "id": 1,
+          "id_evento": 22,
+          "fecha": "2025-02-04"
         },
-        "dias": [
-            {
-                "id": 1,
-                "id_evento": 22,
-                "fecha": "2025-02-04"
-            },
-            {
-                "id": 2,
-                "id_evento": 22,
-                "fecha": "2024-12-25"
-            },
-            {
-                "id": 3,
-                "id_evento": 22,
-                "fecha": "2025-04-01"
-            },
-            {
-                "id": 4,
-                "id_evento": 22,
-                "fecha": "2025-03-31"
-            }
-        ]
+        {
+          "id": 2,
+          "id_evento": 22,
+          "fecha": "2024-12-25"
+        },
+        {
+          "id": 3,
+          "id_evento": 22,
+          "fecha": "2025-04-01"
+        },
+        {
+          "id": 4,
+          "id_evento": 22,
+          "fecha": "2025-03-31"
+        }
+      ]
     },
     {
-        "id": 23,
-        "nombre": "Evento 23 - Mall",
-        "descripcion": "Descripci\u00f3n del evento 23, categor\u00eda Mall.",
-        "nombre_ciudad": "Ciudad A",
-        "ubicacion": "Direcci\u00f3n 23, Ciudad A",
-        "ubicacion_url": "https://example.com/ubicacion/23",
-        "creador": 84,
-        "estado": "inactivo",
-        "nombre_categoria": "Mall",
-        "imagen_url": "https://boliviaemprende.com/wp-content/uploads/2020/01/cielo-Mall.jpg",
-        "imagen_sectores": "https://example.com/imagenes/sectores_23.jpg",
-        "extra": {
-            "key": "value_23"
-        },
-        "dias": [
-            {
-                "id": 1,
-                "id_evento": 23,
-                "fecha": "2025-01-24"
-            }
-        ]
+      "id": 23,
+      "nombre": "Evento 23 - Mall",
+      "descripcion": "Descripci\u00f3n del evento 23, categor\u00eda Mall.",
+      "nombre_ciudad": "Ciudad A",
+      "ubicacion": "Direcci\u00f3n 23, Ciudad A",
+      "ubicacion_url": "https://example.com/ubicacion/23",
+      "creador": 84,
+      "estado": "inactivo",
+      "nombre_categoria": "Mall",
+      "imagen_url": "https://blog.sothebysrealty.ae/hs-fs/hubfs/Largest%20Shopping%20Malls-jpg.jpeg?width=3200&height=2134&name=Largest%20Shopping%20Malls-jpg.jpeg",
+      "imagen_sectores": "https://example.com/imagenes/sectores_23.jpg",
+      "extra": {
+        "key": "value_23"
+      },
+      "dias": [
+        {
+          "id": 1,
+          "id_evento": 23,
+          "fecha": "2025-01-24"
+        }
+      ]
     },
     {
-        "id": 24,
-        "nombre": "Evento 24 - Cinema",
-        "descripcion": "Descripci\u00f3n del evento 24, categor\u00eda Cinema.",
-        "nombre_ciudad": "Ciudad D",
-        "ubicacion": "Direcci\u00f3n 24, Ciudad D",
-        "ubicacion_url": "https://example.com/ubicacion/24",
-        "creador": 75,
-        "estado": "activo",
-        "nombre_categoria": "Cinema",
-        "imagen_url": "https://www.eslecollege.com/wp-content/uploads/2023/10/Cinema-world.jpg",
-        "imagen_sectores": "https://example.com/imagenes/sectores_24.jpg",
-        "extra": {
-            "key": "value_24"
+      "id": 24,
+      "nombre": "Evento 24 - Cinema",
+      "descripcion": "Descripci\u00f3n del evento 24, categor\u00eda Cinema.",
+      "nombre_ciudad": "Ciudad D",
+      "ubicacion": "Direcci\u00f3n 24, Ciudad D",
+      "ubicacion_url": "https://example.com/ubicacion/24",
+      "creador": 75,
+      "estado": "activo",
+      "nombre_categoria": "Cinema",
+      "imagen_url": "https://www.eslecollege.com/wp-content/uploads/2023/10/Cinema-world.jpg",
+      "imagen_sectores": "https://example.com/imagenes/sectores_24.jpg",
+      "extra": {
+        "key": "value_24"
+      },
+      "dias": [
+        {
+          "id": 1,
+          "id_evento": 24,
+          "fecha": "2025-07-05"
         },
-        "dias": [
-            {
-                "id": 1,
-                "id_evento": 24,
-                "fecha": "2025-07-05"
-            },
-            {
-                "id": 2,
-                "id_evento": 24,
-                "fecha": "2024-12-14"
-            },
-            {
-                "id": 3,
-                "id_evento": 24,
-                "fecha": "2025-08-09"
-            },
-            {
-                "id": 4,
-                "id_evento": 24,
-                "fecha": "2024-12-19"
-            }
-        ]
+        {
+          "id": 2,
+          "id_evento": 24,
+          "fecha": "2024-12-14"
+        },
+        {
+          "id": 3,
+          "id_evento": 24,
+          "fecha": "2025-08-09"
+        },
+        {
+          "id": 4,
+          "id_evento": 24,
+          "fecha": "2024-12-19"
+        }
+      ]
     },
     {
-        "id": 25,
-        "nombre": "Evento 25 - Cinema",
-        "descripcion": "Descripci\u00f3n del evento 25, categor\u00eda Cinema.",
-        "nombre_ciudad": "Ciudad B",
-        "ubicacion": "Direcci\u00f3n 25, Ciudad B",
-        "ubicacion_url": "https://example.com/ubicacion/25",
-        "creador": 31,
-        "estado": "inactivo",
-        "nombre_categoria": "Cinema",
-        "imagen_url": "https://www.eslecollege.com/wp-content/uploads/2023/10/Cinema-world.jpg",
-        "imagen_sectores": "https://example.com/imagenes/sectores_25.jpg",
-        "extra": {
-            "key": "value_25"
+      "id": 25,
+      "nombre": "Evento 25 - Cinema",
+      "descripcion": "Descripci\u00f3n del evento 25, categor\u00eda Cinema.",
+      "nombre_ciudad": "Ciudad B",
+      "ubicacion": "Direcci\u00f3n 25, Ciudad B",
+      "ubicacion_url": "https://example.com/ubicacion/25",
+      "creador": 31,
+      "estado": "inactivo",
+      "nombre_categoria": "Cinema",
+      "imagen_url": "https://www.eslecollege.com/wp-content/uploads/2023/10/Cinema-world.jpg",
+      "imagen_sectores": "https://example.com/imagenes/sectores_25.jpg",
+      "extra": {
+        "key": "value_25"
+      },
+      "dias": [
+        {
+          "id": 1,
+          "id_evento": 25,
+          "fecha": "2025-02-13"
         },
-        "dias": [
-            {
-                "id": 1,
-                "id_evento": 25,
-                "fecha": "2025-02-13"
-            },
-            {
-                "id": 2,
-                "id_evento": 25,
-                "fecha": "2025-01-15"
-            }
-        ]
+        {
+          "id": 2,
+          "id_evento": 25,
+          "fecha": "2025-01-15"
+        }
+      ]
     },
     {
-        "id": 26,
-        "nombre": "Evento 26 - Rstaurantes",
-        "descripcion": "Descripci\u00f3n del evento 26, categor\u00eda Rstaurantes.",
-        "nombre_ciudad": "Ciudad A",
-        "ubicacion": "Direcci\u00f3n 26, Ciudad A",
-        "ubicacion_url": "https://example.com/ubicacion/26",
-        "creador": 30,
-        "estado": "inactivo",
-        "nombre_categoria": "Rstaurantes",
-        "imagen_url": "https://nobili-design.com/storage/gallery/6240/lg/Restaurant_Interior_Design_Nobili_Design_7.jpg",
-        "imagen_sectores": "https://example.com/imagenes/sectores_26.jpg",
-        "extra": {
-            "key": "value_26"
+      "id": 26,
+      "nombre": "Evento 26 - Rstaurantes",
+      "descripcion": "Descripci\u00f3n del evento 26, categor\u00eda Rstaurantes.",
+      "nombre_ciudad": "Ciudad A",
+      "ubicacion": "Direcci\u00f3n 26, Ciudad A",
+      "ubicacion_url": "https://example.com/ubicacion/26",
+      "creador": 30,
+      "estado": "inactivo",
+      "nombre_categoria": "Rstaurantes",
+      "imagen_url": "https://nobili-design.com/storage/gallery/6240/lg/Restaurant_Interior_Design_Nobili_Design_7.jpg",
+      "imagen_sectores": "https://example.com/imagenes/sectores_26.jpg",
+      "extra": {
+        "key": "value_26"
+      },
+      "dias": [
+        {
+          "id": 1,
+          "id_evento": 26,
+          "fecha": "2025-01-09"
         },
-        "dias": [
-            {
-                "id": 1,
-                "id_evento": 26,
-                "fecha": "2025-01-09"
-            },
-            {
-                "id": 2,
-                "id_evento": 26,
-                "fecha": "2024-12-30"
-            },
-            {
-                "id": 3,
-                "id_evento": 26,
-                "fecha": "2025-05-15"
-            },
-            {
-                "id": 4,
-                "id_evento": 26,
-                "fecha": "2025-07-15"
-            }
-        ]
+        {
+          "id": 2,
+          "id_evento": 26,
+          "fecha": "2024-12-30"
+        },
+        {
+          "id": 3,
+          "id_evento": 26,
+          "fecha": "2025-05-15"
+        },
+        {
+          "id": 4,
+          "id_evento": 26,
+          "fecha": "2025-07-15"
+        }
+      ]
     },
     {
-        "id": 27,
-        "nombre": "Evento 27 - Club",
-        "descripcion": "Descripci\u00f3n del evento 27, categor\u00eda Club.",
-        "nombre_ciudad": "Ciudad A",
-        "ubicacion": "Direcci\u00f3n 27, Ciudad A",
-        "ubicacion_url": "https://example.com/ubicacion/27",
-        "creador": 46,
-        "estado": "activo",
-        "nombre_categoria": "Club",
-        "imagen_url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Wikipedia_space_ibiza%2803%29.jpg",
-        "imagen_sectores": "https://example.com/imagenes/sectores_27.jpg",
-        "extra": {
-            "key": "value_27"
+      "id": 27,
+      "nombre": "Evento 27 - Club",
+      "descripcion": "Descripci\u00f3n del evento 27, categor\u00eda Club.",
+      "nombre_ciudad": "Ciudad A",
+      "ubicacion": "Direcci\u00f3n 27, Ciudad A",
+      "ubicacion_url": "https://example.com/ubicacion/27",
+      "creador": 46,
+      "estado": "activo",
+      "nombre_categoria": "Club",
+      "imagen_url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Wikipedia_space_ibiza%2803%29.jpg",
+      "imagen_sectores": "https://example.com/imagenes/sectores_27.jpg",
+      "extra": {
+        "key": "value_27"
+      },
+      "dias": [
+        {
+          "id": 1,
+          "id_evento": 27,
+          "fecha": "2025-05-20"
         },
-        "dias": [
-            {
-                "id": 1,
-                "id_evento": 27,
-                "fecha": "2025-05-20"
-            },
-            {
-                "id": 2,
-                "id_evento": 27,
-                "fecha": "2025-01-27"
-            },
-            {
-                "id": 3,
-                "id_evento": 27,
-                "fecha": "2024-12-17"
-            },
-            {
-                "id": 4,
-                "id_evento": 27,
-                "fecha": "2025-05-03"
-            }
-        ]
+        {
+          "id": 2,
+          "id_evento": 27,
+          "fecha": "2025-01-27"
+        },
+        {
+          "id": 3,
+          "id_evento": 27,
+          "fecha": "2024-12-17"
+        },
+        {
+          "id": 4,
+          "id_evento": 27,
+          "fecha": "2025-05-03"
+        }
+      ]
     },
     {
-        "id": 28,
-        "nombre": "Evento 28 - Club",
-        "descripcion": "Descripci\u00f3n del evento 28, categor\u00eda Club.",
-        "nombre_ciudad": "Ciudad E",
-        "ubicacion": "Direcci\u00f3n 28, Ciudad E",
-        "ubicacion_url": "https://example.com/ubicacion/28",
-        "creador": 89,
-        "estado": "inactivo",
-        "nombre_categoria": "Club",
-        "imagen_url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Wikipedia_space_ibiza%2803%29.jpg",
-        "imagen_sectores": "https://example.com/imagenes/sectores_28.jpg",
-        "extra": {
-            "key": "value_28"
+      "id": 28,
+      "nombre": "Evento 28 - Club",
+      "descripcion": "Descripci\u00f3n del evento 28, categor\u00eda Club.",
+      "nombre_ciudad": "Ciudad E",
+      "ubicacion": "Direcci\u00f3n 28, Ciudad E",
+      "ubicacion_url": "https://example.com/ubicacion/28",
+      "creador": 89,
+      "estado": "inactivo",
+      "nombre_categoria": "Club",
+      "imagen_url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Wikipedia_space_ibiza%2803%29.jpg",
+      "imagen_sectores": "https://example.com/imagenes/sectores_28.jpg",
+      "extra": {
+        "key": "value_28"
+      },
+      "dias": [
+        {
+          "id": 1,
+          "id_evento": 28,
+          "fecha": "2025-01-06"
         },
-        "dias": [
-            {
-                "id": 1,
-                "id_evento": 28,
-                "fecha": "2025-01-06"
-            },
-            {
-                "id": 2,
-                "id_evento": 28,
-                "fecha": "2025-03-13"
-            },
-            {
-                "id": 3,
-                "id_evento": 28,
-                "fecha": "2025-02-26"
-            },
-            {
-                "id": 4,
-                "id_evento": 28,
-                "fecha": "2025-04-17"
-            }
-        ]
+        {
+          "id": 2,
+          "id_evento": 28,
+          "fecha": "2025-03-13"
+        },
+        {
+          "id": 3,
+          "id_evento": 28,
+          "fecha": "2025-02-26"
+        },
+        {
+          "id": 4,
+          "id_evento": 28,
+          "fecha": "2025-04-17"
+        }
+      ]
     },
     {
-        "id": 29,
-        "nombre": "Evento 29 - Cinema",
-        "descripcion": "Descripci\u00f3n del evento 29, categor\u00eda Cinema.",
-        "nombre_ciudad": "Ciudad D",
-        "ubicacion": "Direcci\u00f3n 29, Ciudad D",
-        "ubicacion_url": "https://example.com/ubicacion/29",
-        "creador": 48,
-        "estado": "activo",
-        "nombre_categoria": "Cinema",
-        "imagen_url": "https://www.eslecollege.com/wp-content/uploads/2023/10/Cinema-world.jpg",
-        "imagen_sectores": "https://example.com/imagenes/sectores_29.jpg",
-        "extra": {
-            "key": "value_29"
+      "id": 29,
+      "nombre": "Evento 29 - Cinema",
+      "descripcion": "Descripci\u00f3n del evento 29, categor\u00eda Cinema.",
+      "nombre_ciudad": "Ciudad D",
+      "ubicacion": "Direcci\u00f3n 29, Ciudad D",
+      "ubicacion_url": "https://example.com/ubicacion/29",
+      "creador": 48,
+      "estado": "activo",
+      "nombre_categoria": "Cinema",
+      "imagen_url": "https://www.eslecollege.com/wp-content/uploads/2023/10/Cinema-world.jpg",
+      "imagen_sectores": "https://example.com/imagenes/sectores_29.jpg",
+      "extra": {
+        "key": "value_29"
+      },
+      "dias": [
+        {
+          "id": 1,
+          "id_evento": 29,
+          "fecha": "2025-07-28"
         },
-        "dias": [
-            {
-                "id": 1,
-                "id_evento": 29,
-                "fecha": "2025-07-28"
-            },
-            {
-                "id": 2,
-                "id_evento": 29,
-                "fecha": "2024-12-14"
-            },
-            {
-                "id": 3,
-                "id_evento": 29,
-                "fecha": "2025-01-24"
-            },
-            {
-                "id": 4,
-                "id_evento": 29,
-                "fecha": "2025-01-22"
-            },
-            {
-                "id": 5,
-                "id_evento": 29,
-                "fecha": "2025-01-27"
-            }
-        ]
+        {
+          "id": 2,
+          "id_evento": 29,
+          "fecha": "2024-12-14"
+        },
+        {
+          "id": 3,
+          "id_evento": 29,
+          "fecha": "2025-01-24"
+        },
+        {
+          "id": 4,
+          "id_evento": 29,
+          "fecha": "2025-01-22"
+        },
+        {
+          "id": 5,
+          "id_evento": 29,
+          "fecha": "2025-01-27"
+        }
+      ]
     },
     {
-        "id": 30,
-        "nombre": "Evento 30 - Parque",
-        "descripcion": "Descripci\u00f3n del evento 30, categor\u00eda Parque.",
-        "nombre_ciudad": "Ciudad B",
-        "ubicacion": "Direcci\u00f3n 30, Ciudad B",
-        "ubicacion_url": "https://example.com/ubicacion/30",
-        "creador": 29,
-        "estado": "activo",
-        "nombre_categoria": "Parque",
-        "imagen_url": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
-        "imagen_sectores": "https://example.com/imagenes/sectores_30.jpg",
-        "extra": {
-            "key": "value_30"
+      "id": 30,
+      "nombre": "Evento 30 - Parque",
+      "descripcion": "Descripci\u00f3n del evento 30, categor\u00eda Parque.",
+      "nombre_ciudad": "Ciudad B",
+      "ubicacion": "Direcci\u00f3n 30, Ciudad B",
+      "ubicacion_url": "https://example.com/ubicacion/30",
+      "creador": 29,
+      "estado": "activo",
+      "nombre_categoria": "Parque",
+      "imagen_url": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
+      "imagen_sectores": "https://example.com/imagenes/sectores_30.jpg",
+      "extra": {
+        "key": "value_30"
+      },
+      "dias": [
+        {
+          "id": 1,
+          "id_evento": 30,
+          "fecha": "2025-07-17"
         },
-        "dias": [
-            {
-                "id": 1,
-                "id_evento": 30,
-                "fecha": "2025-07-17"
-            },
-            {
-                "id": 2,
-                "id_evento": 30,
-                "fecha": "2025-01-30"
-            },
-            {
-                "id": 3,
-                "id_evento": 30,
-                "fecha": "2024-12-21"
-            },
-            {
-                "id": 4,
-                "id_evento": 30,
-                "fecha": "2025-03-11"
-            },
-            {
-                "id": 5,
-                "id_evento": 30,
-                "fecha": "2024-12-23"
-            }
-        ]
+        {
+          "id": 2,
+          "id_evento": 30,
+          "fecha": "2025-01-30"
+        },
+        {
+          "id": 3,
+          "id_evento": 30,
+          "fecha": "2024-12-21"
+        },
+        {
+          "id": 4,
+          "id_evento": 30,
+          "fecha": "2025-03-11"
+        },
+        {
+          "id": 5,
+          "id_evento": 30,
+          "fecha": "2024-12-23"
+        }
+      ]
     }
-]
+  ]
 }
